@@ -11,7 +11,8 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.util.Date;
 
-import com.google.api.client.util.Base64;
+import org.apache.commons.codec.binary.Base64;
+
 import com.rlms.utils.DateUtils;
 
 public class ConsumeRestFul {
